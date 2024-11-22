@@ -38,6 +38,7 @@ body {
     font-size: 1.5em;
     margin: 0;
     font-weight: bold;
+    cursor: pointer;
 }
 a {
     text-decoration: none;
@@ -65,4 +66,9 @@ a {
     100% {
         transform: translateX(0);
     }
+}
+
+.wcd-bkg{
+    background-image: url(../imgs/wcd.png);
+    background-size: cover;
 }
