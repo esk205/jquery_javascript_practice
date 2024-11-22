@@ -71,10 +71,10 @@ $("#hide-days").on("click", function() {
 $(document).on("keypress", function (e) {
     console.log(e.key)
     if(e.key == "t"){
-        $("num-21").html("November 21 <h3> World Television Day </h3>")
+        $("#num-21").html("November 21 <h3> World Television Day </h3>")
     }
     else if (e.key = "s"){
-        $("num-21").html("November 26 <h3> World Sustainable Transportation Day</h3>")
+        $("#num-21").html("November 30 <h1> World Sustainable Transportation Day</h1>")
     }
 })
 
